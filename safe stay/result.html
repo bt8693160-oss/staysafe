@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Verification Result</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <h1>StaySafe</h1>
+</nav>
+
+<div class="container fade-in">
+
+    <h1 class="main-title">AI Verification Result</h1>
+
+    <p class="description">
+        Smart AI-based security layers are verifying uploaded documents.
+    </p>
+
+    <button onclick="checkResult()">Start AI Verification</button>
+
+    <div id="scanner">
+        <p id="scanText"></p>
+    </div>
+
+    <div id="resultBox">
+
+        <h2 id="result"></h2>
+
+        <p id="score"></p>
+
+        <h3 id="risk"></h3>
+
+        <div class="layers">
+            <p id="layer1"></p>
+            <p id="layer2"></p>
+            <p id="layer3"></p>
+            <p id="layer4"></p>
+            <p id="layer5"></p>
+        </div>
+
+    </div>
+
+    <button onclick="goHome()">Back to Home</button>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
